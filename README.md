@@ -37,8 +37,6 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <li>You can now transfer this to your phone (via OneDrive, Google Drive, Bluetooth etc) and install (keeping in mind to use an app other than Downloads or Google Files). Ignore any Play Protect warnings and up to you on submitting it to Play Protect.</li>
 <li>You can now apply the theme.</li>
 <li>I recommend to always restart your device to ensure themes are applied correctly but there’s a quicker way. Turn night mode on & off and force stop Home.</li> 
-<li>I’ve always had issues with themes being “updated” so I also recommend to always uninstall your theme before installing a new version.</li>
-<li>You can add resources to each of these overlay apps by placing them in the corresponding app folder in “app\individual” and using the same setup as in the original app.</li>
  </ol>
 </ul>
 
@@ -50,6 +48,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <li>Now, there should be a “build.gradle” file in the list of the other ones with the corresponding name in brackets next to it.</li>
 <li>Open this file and edit the value of “applicationId” to suit the new app.</li>
 <li>Now find the AndroidManifest.xml for this app (either in Android Studio or name/src/main). Edit the “package” name to match the name used previously and change the “targetPackage” name to match the name of the app being targeted.</li>
+<li>You can add resources to each of these overlay apps by placing the new resources in a similar format to the original (e.g. "app\individual\common\src\main\res")
 </ol>
 
 <h4>Changing project name</h4>
