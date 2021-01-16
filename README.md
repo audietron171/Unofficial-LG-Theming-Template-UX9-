@@ -1,4 +1,4 @@
-# Unofficial-LG-Theming-Template-UX9-
+# Unofficial LG Theming Template For UX9
 
 <h4>Introduction</h4>
 This is a fairly basic template for making themes for LG phones running UX9. This may work on other versions but I cannot ensure it will work. I highly condone any form of piracy and you should be very careful of only using opensource or your own pictures/icons/properties. You should be especially wary of stealing from other creators!! I recommend having a read of this since this explains a little more on how the theming system works (although there appears to be a few extras in LG’s implementation, particularly around night mode resources):
