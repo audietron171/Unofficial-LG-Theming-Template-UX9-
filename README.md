@@ -10,7 +10,7 @@ This is a fairly basic template for making themes for LG phones. I highly condon
 <ul>
   <li><h5>Installing Pre-requisites:</h5>
 <ol>
-<li>Download the .zip file called “LGThemesTemplate.zip” and extract to a location of your choice.</li>
+<li>Download the file and place in a location of your choice.</li>
 <li>Download and install Android Studio. The latest version (tested 4.1.1) works fine. When installing, accept all defaults except you may de-select “Install Virtual Device” (themes cannot be applied to Virtual Devices since they aren’t LG).</li>
 <li>Open the “LGThemesTemplate” project (will have the green Android logo) and wait for the program to complete the preparation.<li>
 </ol>
