@@ -1,0 +1,11 @@
+include ':app','app:individual:common',
+        'app:individual:alarmclock',
+        'app:individual:calender',
+        'app:individual:contacts',
+        'app:individual:filemanager',
+        'app:individual:gallery3d',
+        'app:individual:home',
+        'app:individual:music',
+        'app:individual:qmemoplus',
+        'app:individual:systemui'
+rootProject.name = "LGThemeTemplate"

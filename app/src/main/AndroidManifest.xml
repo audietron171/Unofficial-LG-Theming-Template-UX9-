@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.lge.theme.lgthemetemplate">
+    <application android:allowBackup="true" android:hasCode="false" android:label="LGThemeTemplate">
+        <meta-data android:name="com.lge.theme.name" android:value="com.lge.theme.lgthemetemplate"/>
+        <meta-data android:name="com.lge.theme.profile_version" android:value="9"/>
+        <meta-data android:name="com.lge.theme.build_tool_version" android:value="Win_Master_4.0.0_3575"/>
+        <meta-data android:name="com.lge.theme.refuse_to_display" android:value="false"/>
+        <meta-data android:name="com.lge.theme.support_backup_and_restore" android:value="false"/>
+        <meta-data android:name="com.lge.theme.category" android:value="1"/>
+        <meta-data android:name="com.lge.theme.theme_designer_name" android:value="None"/>
+        <meta-data android:name="com.lge.theme.theme_designer_email_address" android:value="None"/>
+        <meta-data android:name="com.lge.theme.theme_designer_company_name" android:value="None"/>
+    </application>
+</manifest>

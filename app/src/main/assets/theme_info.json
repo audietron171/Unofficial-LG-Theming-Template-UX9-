@@ -1,0 +1,51 @@
+{
+    "title" : "LGThemeTemplate",
+    "previews" : [
+		"theme_preview_0",
+		"theme_preview_1"
+    ],
+    "common": [
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.common",
+            "apk" : "com.lge.theme.lgthemetemplate.common.apk"
+        }
+    ],
+    "appOverlays": [
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.alarmclock",
+            "apk" : "com.lge.theme.lgthemetemplate.alarmclock.apk"
+        },
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.calendar",
+            "apk" : "com.lge.theme.lgthemetemplate.calendar.apk"
+        },
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.contacts",
+            "apk" : "com.lge.theme.lgthemetemplate.contacts.apk"
+        },
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.filemanager",
+            "apk" : "com.lge.theme.lgthemetemplate.filemanager.apk"
+        },
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.gallery3d",
+            "apk" : "com.lge.theme.lgthemetemplate.gallery3d.apk"
+        },
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.music",
+            "apk" : "com.lge.theme.lgthemetemplate.music.apk"
+        },
+        {
+            "pkg" : "com.lge.theme.lgthemetemplate.qmemoplus",
+            "apk" : "com.lge.theme.lgthemetemplate.qmemoplus.apk"
+        },
+        {
+            "pkg": "com.lge.theme.lgthemetemplate.home",
+            "apk": "com.lge.theme.lgthemetemplate.home.apk"
+        },
+        {
+            "pkg": "com.lge.theme.lgthemetemplate.systemui",
+            "apk": "com.lge.theme.lgthemetemplate.systemui.apk"
+        }
+    ]
+}
