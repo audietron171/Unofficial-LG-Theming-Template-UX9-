@@ -43,7 +43,6 @@ I recommend having a read of this since this explains a little more on how the t
 <li>I’ve always had issues with themes being “updated” so I also recommend to always uninstall your theme before installing a new version.</li>
 <li>You can add resources to each of these overlay apps by placing them in the corresponding app folder in “app\individual” and using the same setup as in the original app.</li>
  </ol>
-<li>
 </ul>
 
 <h4>Adding overlay apps</h4>
