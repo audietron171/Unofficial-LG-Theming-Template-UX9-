@@ -6,6 +6,7 @@ This is a fairly basic template for making themes for LG phones. I highly condon
 I recommend having a read of this since this explains a little more on how the theming system works (although there appears to be a few extras in LG’s implementation, particularly around night mode resources):
 <ul>
   <li>https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO</li>
+</ul>
 
 <h4>Setting Up</h4>
 <h5>Installing Pre-requisites:</h5>
