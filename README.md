@@ -6,12 +6,14 @@ I recommend having a read of this since this explains a little more on how the t
 -	https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO
 
 <h4>Setting Up</h4>
-	<h5>Installing Pre-requisites:</h5>
-1.	Download the .zip file called “LGThemesTemplate.zip” and extract to a location of your choice.
-2.	Download and install Android Studio. The latest version (tested 4.1.1) works fine. When installing, accept all defaults except you may de-select “Install Virtual Device” (themes cannot be applied to Virtual Devices since they aren’t LG).
-3.	Open the “LGThemesTemplate” project (will have the green Android logo) and wait for the program to complete the preparation.
+<h5>Installing Pre-requisites:</h5>
+<ol>
+<li>Download the .zip file called “LGThemesTemplate.zip” and extract to a location of your choice.</li>
+<li>Download and install Android Studio. The latest version (tested 4.1.1) works fine. When installing, accept all defaults except you may de-select “Install Virtual Device” (themes cannot be applied to Virtual Devices since they aren’t LG).</li>
+<li>Open the “LGThemesTemplate” project (will have the green Android logo) and wait for the program to complete the preparation.<li>
+</ol>
 <h5>Compiling for the first time:</h5>
-1.	By default, the project provided should compile for the first time. On the top menu, select “Build”>”Generate Signed Bundle/APK” and then “APK”. Click Next.
+1.By default, the project provided should compile for the first time. On the top menu, select “Build”>”Generate Signed Bundle/APK” and then “APK”. Click Next.
 2.	It should already be confirmed but confirm that in the first box, “LGThemeTemplate.app” is selected.
 3.	Next you will need to create a KeyStore. This will sign your APK and allow it to be installed on Android devices. Fill in the details as you see fit, you can change this later. Beware, unless you create a Google Play developer account, you will trigger Play Protect when installing your app. This isn’t an issue though, just make sure to not install using the Downloads app (I personally use LG’s File Manager). Remember your password!!
 4.	Create an alias.
