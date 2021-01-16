@@ -9,12 +9,15 @@ I recommend having a read of this since this explains a little more on how the t
 </ul>
 
 <h4>Setting Up</h4>
-<h5>Installing Pre-requisites:</h5>
+<ul>
+  <li><h5>Installing Pre-requisites:</h5>
 <ol>
 <li>Download the .zip file called “LGThemesTemplate.zip” and extract to a location of your choice.</li>
 <li>Download and install Android Studio. The latest version (tested 4.1.1) works fine. When installing, accept all defaults except you may de-select “Install Virtual Device” (themes cannot be applied to Virtual Devices since they aren’t LG).</li>
 <li>Open the “LGThemesTemplate” project (will have the green Android logo) and wait for the program to complete the preparation.<li>
 </ol>
+  </li>
+<li>
 <h5>Compiling for the first time:</h5>
 <ol>
 <li>By default, the project provided should compile for the first time. On the top menu, select “Build”>”Generate Signed Bundle/APK” and then “APK”. Click Next.</li>
@@ -27,7 +30,8 @@ I recommend having a read of this since this explains a little more on how the t
 <li>But you’re not done yet!! On the left hand screen (in the top left), select Project and in the menu, select Android. Disregard if already on this view</li>
 <li>Under “Assets”>”Overlays”, you will notice that there are no apps. If you open “theme_info.json” you will see the info LG uses for its themes (such as names, preview pictures and the apps it expects to see). We will generate those apps in the next step.</li>
 </ol>
-
+  </li>
+<li>
 <h5>Actually making a Theme</h5>
 <ol>
 <li>Locate the “Make Project” button on the top-middle of the screen (just under the project name), confirm that “app” is selected and press the green hammer icon.</li>
@@ -39,6 +43,8 @@ I recommend having a read of this since this explains a little more on how the t
 <li>I’ve always had issues with themes being “updated” so I also recommend to always uninstall your theme before installing a new version.</li>
 <li>You can add resources to each of these overlay apps by placing them in the corresponding app folder in “app\individual” and using the same setup as in the original app.</li>
  </ol>
+<li>
+</ul>
 
 <h4>Adding overlay apps</h4>
 <ol>
