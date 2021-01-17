@@ -42,7 +42,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 
 <h4>Adding overlay apps</h4>
 <ol>
-<li>Copy one of the folders from above and place it in the same directory. Rename it to something you’ll remember (e.g. “youtube”).</li>
+<li>Copy one of the folders from the "app/individual" directory and place it in the same directory. Rename it to something you’ll remember (e.g. “youtube”).</li>
 <li>Open Android Studio and find the “settings.gradle” file at the bottom of the Android window on the left.</li>
 <li>In the include section, add the line “app:individual:name” (where name is the name of the folder in Step 1. Press “Sync” in the popup and wait.</li>
 <li>Now, there should be a “build.gradle” file in the list of the other ones with the corresponding name in brackets next to it.</li>
