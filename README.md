@@ -63,6 +63,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <ol>
 <li>Delete all compiled “Overlay” APK’s (temporarily move if you want to keep any)</li>
 <li>Delete “app-release” in release folder (or just compile again as it will clear the error)</li>
+</ol>
 
 <h4>Icon pack creation</h4>
 <ol>
