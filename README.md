@@ -65,7 +65,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <li>Delete “app-release” in release folder (or just compile again as it will clear the error)</li>
 </ol>
 
-<h4>Icon pack creation</h4>
+<h4>Icon pack</h4>
 <ol>
 <li>Using the same project, open the AndroidManifest.xml for the root project ("app/source/main/AndroidManifest.xml")</li>
 <li>Find the line "android:name="com.lge.theme.category" and change the value to "256" (default here is "1")</li>
