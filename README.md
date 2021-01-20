@@ -38,7 +38,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <li>You can now apply the theme.</li>
 <li>I recommend to always restart your device to ensure themes are applied correctly but there’s a quicker way. Turn night mode on & off and force stop Home.</li> 
 <li>Create a folder called "res" in the same directory as the AndroidManifest.xml for the app you want to modify (ie "app\individual\alarmclock\src\main\res"</li>
-<li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries and their new color codes). Check RRO guides on this</li>
+<li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries to modify and their new color codes). Check RRO guides on this</li>
  </ol>
 </ul>
 
