@@ -52,7 +52,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <li>Now find the AndroidManifest.xml for this app (either in Android Studio or name/src/main). Edit the “package” name to match the name used previously and change the “targetPackage” name to match the name of the app being targeted.</li>
 <li>Create a folder called "res" in the same directory as the AndroidManifest.xml </li>
 <li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries to modify and their new color codes). Check RRO guides on this</li>
-<li> Add the package name to the Themeinfo file (using same format as the other entries).
+<li> Add the package name to the "Theme_info.json" file (using same format as the other entries).
 </ol>
 
 <h4>Changing project name</h4>
