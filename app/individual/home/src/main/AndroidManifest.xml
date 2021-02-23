@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.lge.theme.lgthemetemplate.home" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.lgthemetemplate.home" platformBuildVersionCode="24" platformBuildVersionName="7.0">
     <overlay android:priority="11" android:targetPackage="com.lge.launcher3"/>
-    <meta-data android:name="com.lge.theme.parent_name" android:value="com.lge.theme.lgthemetemplate"/>
+    <meta-data android:name="com.parent_name" android:value="com.lgthemetemplate"/>
     <application android:allowBackup="false" android:hasCode="false"/>
 </manifest>

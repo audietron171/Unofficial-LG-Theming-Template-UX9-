@@ -6,46 +6,46 @@
     ],
     "common": [
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.common",
-            "apk" : "com.lge.theme.lgthemetemplate.common.apk"
+            "pkg" : "com.lgthemetemplate.common",
+            "apk" : "com.lgthemetemplate.common.apk"
         }
     ],
     "appOverlays": [
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.alarmclock",
-            "apk" : "com.lge.theme.lgthemetemplate.alarmclock.apk"
+            "pkg" : "com.lgthemetemplate.alarmclock",
+            "apk" : "com.lgthemetemplate.alarmclock.apk"
         },
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.calendar",
-            "apk" : "com.lge.theme.lgthemetemplate.calendar.apk"
+            "pkg" : "com.lgthemetemplate.calendar",
+            "apk" : "com.lgthemetemplate.calendar.apk"
         },
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.contacts",
-            "apk" : "com.lge.theme.lgthemetemplate.contacts.apk"
+            "pkg" : "com.lgthemetemplate.contacts",
+            "apk" : "com.lgthemetemplate.contacts.apk"
         },
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.filemanager",
-            "apk" : "com.lge.theme.lgthemetemplate.filemanager.apk"
+            "pkg" : "com.lgthemetemplate.filemanager",
+            "apk" : "com.lgthemetemplate.filemanager.apk"
         },
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.gallery3d",
-            "apk" : "com.lge.theme.lgthemetemplate.gallery3d.apk"
+            "pkg" : "com.lgthemetemplate.gallery3d",
+            "apk" : "com.lgthemetemplate.gallery3d.apk"
         },
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.music",
-            "apk" : "com.lge.theme.lgthemetemplate.music.apk"
+            "pkg" : "com.lgthemetemplate.music",
+            "apk" : "com.lgthemetemplate.music.apk"
         },
         {
-            "pkg" : "com.lge.theme.lgthemetemplate.qmemoplus",
-            "apk" : "com.lge.theme.lgthemetemplate.qmemoplus.apk"
+            "pkg" : "com.lgthemetemplate.qmemoplus",
+            "apk" : "com.lgthemetemplate.qmemoplus.apk"
         },
         {
-            "pkg": "com.lge.theme.lgthemetemplate.home",
-            "apk": "com.lge.theme.lgthemetemplate.home.apk"
+            "pkg": "com.lgthemetemplate.home",
+            "apk": "com.lgthemetemplate.home.apk"
         },
         {
-            "pkg": "com.lge.theme.lgthemetemplate.systemui",
-            "apk": "com.lge.theme.lgthemetemplate.systemui.apk"
+            "pkg": "com.lgthemetemplate.systemui",
+            "apk": "com.lgthemetemplate.systemui.apk"
         }
     ]
 }

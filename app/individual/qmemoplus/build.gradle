@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lge.theme.lgthemetemplate.qmemoplus'
+        applicationId 'com.lgthemetemplate.qmemoplus'
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 24

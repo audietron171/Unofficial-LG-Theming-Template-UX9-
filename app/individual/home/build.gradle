@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lge.theme.lgthemetemplate.home'
+        applicationId 'com.lgthemetemplate.home'
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 24

@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lge.theme.lgthemetemplate.systemui'
+        applicationId 'com.lgthemetemplate.systemui'
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 24

@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lge.theme.lgthemetemplate.gallery3d'
+        applicationId 'com.lgthemetemplate.gallery3d'
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 24

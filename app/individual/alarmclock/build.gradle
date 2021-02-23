@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lge.theme.lgthemetemplate.alarmclock'
+        applicationId 'com.lgthemetemplate.alarmclock'
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 24

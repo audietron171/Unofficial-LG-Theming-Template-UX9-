@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'com.lge.theme.lgthemetemplate.filemanager'
+        applicationId 'com.lgthemetemplate.filemanager'
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 24
