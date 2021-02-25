@@ -5,7 +5,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <ul>
   <li>https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO</li>
 </ul>
-This project takes influence off of Mark Bencze's "Samsung_Theme_Builder_Thingy_Template" linked here:
+This project also takes influence off of Mark Bencze's "Samsung_Theme_Builder_Thingy_Template" linked here:
 <ul>
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
@@ -42,10 +42,10 @@ This project takes influence off of Mark Bencze's "Samsung_Theme_Builder_Thingy_
 <li>Now repeat the Compiling for the first time steps (you can save the passwords to make this simpler and wait).</li>
 <li>You can now transfer this to your phone (via OneDrive, Google Drive, Bluetooth etc) and install (keeping in mind to use an app other than Downloads or Google Files). Ignore any Play Protect warnings and up to you on submitting it to Play Protect.</li>
 <li>You can now apply the theme. By default, it has no values to apply so nothing will happen. See below for how to add values/drawables </li>
+<li>Create a folder called "res" in the same directory as the AndroidManifest.xml for the app you want to modify (ie "app\individual\alarmclock\src\main\res"</li>
+<li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries to modify and their new color codes). Check RRO guides on decompiling apps and applying these new values</li>
 <li>I recommend to always restart your device to ensure themes are applied correctly but there’s a quicker way. Turn night mode on & off and force stop Home.</li> 
 <li>Always uninstall the theme before updating it to a new one. Otherwise it will not update correctly and will not apply the new values/resources </li>
-<li>Create a folder called "res" in the same directory as the AndroidManifest.xml for the app you want to modify (ie "app\individual\alarmclock\src\main\res"</li>
-<li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries to modify and their new color codes). Check RRO guides on this</li>
  </ol>
 </ul>
 
@@ -58,7 +58,7 @@ This project takes influence off of Mark Bencze's "Samsung_Theme_Builder_Thingy_
 <li>Open this file and edit the value of “applicationId” to suit the new app.</li>
 <li>Now find the AndroidManifest.xml for this app (either in Android Studio or name/src/main). Edit the “package” name to match the name used previously and change the “targetPackage” name to match the name of the app being targeted.</li>
 <li>Create a folder called "res" in the same directory as the AndroidManifest.xml </li>
-<li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries to modify and their new color codes). Check RRO guides on this</li>
+<li>See above on adding resources</li>
 <li> Add the package name to the "Theme_info.json" file (using same format as the other entries).
 </ol>
 
