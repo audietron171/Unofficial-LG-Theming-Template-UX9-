@@ -9,8 +9,6 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <ul>
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
-<h4> Disclaimer: Although theming is generally safe, it is possible to softlock your phone (especially if messing with SystemUI resources incorrectly). Generally, as long as you provide exact values (and not linked to others), you'll be fine. However, it is highly recommended to perform a full backup regularly when theming </h4>
-
 
 <h4>Setting Up</h4>
 <ul>
