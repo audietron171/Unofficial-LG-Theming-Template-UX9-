@@ -5,7 +5,7 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <ul>
   <li>https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO</li>
 </ul>
-This project also takes influence off of Mark Bencze's "Samsung_Theme_Builder_Thingy_Template" linked here:
+This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder_Thingy_Template":
 <ul>
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
