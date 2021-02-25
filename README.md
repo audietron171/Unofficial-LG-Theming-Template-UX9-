@@ -5,6 +5,11 @@ This is a fairly basic template for making themes for LG phones running UX9. Thi
 <ul>
   <li>https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO</li>
 </ul>
+This project takes influence off of Mark Bencze's "Samsung_Theme_Builder_Thingy_Template" linked here:
+<ul>
+  <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
+</ul>
+<h4> Disclaimer: Although theming is generally safe, it is possible to softlock your phone (especially if messing with SystemUI resources incorrectly). Generally, as long as you provide exact values (and not linked to others), you'll be fine. However, it is highly recommended to perform a full backup regularly when theming </h4>
 
 
 <h4>Setting Up</h4>
