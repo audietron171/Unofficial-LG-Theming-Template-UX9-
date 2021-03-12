@@ -9,7 +9,7 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <ul>
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
-**WARNING:** Do not link resources (e.g "@color/exampleColor". It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). I recommend to backup your device when theming for this reason.
+__WARNING__: Do not link resources (e.g "@color/exampleColor". It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). I recommend to backup your device when theming for this reason.
 
 <h4>Setting Up</h4>
 <ul>
@@ -20,7 +20,7 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <li>Download and install Android Studio. The latest version (tested 4.1.1) works fine. When installing, accept all defaults except you may de-select “Install Virtual Device” (themes cannot be applied to Virtual Devices since they aren’t LG).</li>
 <li>Open the “LGThemeTemplate” project (will have the green Android logo) and wait for the program to complete the preparation.</li>
 </ol>
-<h5>Compiling for the first time:</h5>
+<li><h5>Compiling for the first time:</h5>
 <ol>
 <li>By default, the project provided should compile for the first time. On the top toolbar, select “Build”>”Generate Signed Bundle/APK” and then “APK”. Click Next.</li>
 <li>It should already be confirmed but confirm that in the first box, “LGThemeTemplate.app” is selected.</li>
