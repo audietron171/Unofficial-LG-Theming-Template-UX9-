@@ -9,7 +9,7 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <ul>
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
-__WARNING__: Do not link resources (e.g "@color/exampleColor". It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). I recommend to backup your device when theming for this reason.
+__WARNING__ : Do not link resources (e.g "@color/exampleColor". It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). I recommend to backup your device when theming for this reason.
 
 <h4>Setting Up</h4>
 <ul>
