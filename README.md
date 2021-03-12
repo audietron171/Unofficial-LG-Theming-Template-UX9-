@@ -74,7 +74,9 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 
 <h4>Converting theme into an icon pack</h4>
 <ol>
-<li>Useful as it allows you to either add icon packs or to simply apply a theme over another theme</li>
+<ul>
+  <li><em>Useful as it allows you to either add icon packs or to simply apply a theme over another theme</em></li>
+  </ul>
 <li>Using the same project, open the AndroidManifest.xml for the root project ("app/source/main/AndroidManifest.xml")</li>
 <li>Find the line "android:name="com.lge.theme.category" and change the value to "256" (default here is "1")</li>
 <li>After installing the theme, it can now be applied under the "icons" tab</li>
