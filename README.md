@@ -40,10 +40,6 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <li>Now repeat the Compiling for the first time steps (you can save the passwords to make this simpler and wait).</li>
 <li>You can now transfer this to your phone (via OneDrive, Google Drive, Bluetooth etc) and install (keeping in mind to use an app other than Downloads or Google Files). Ignore any Play Protect warnings and up to you on submitting it to Play Protect.</li>
 <li>You can now apply the theme. By default, it has no values to apply so nothing will happen. See below for how to add values/drawables </li>
-<li>Create a folder called "res" in the same directory as the AndroidManifest.xml for the app you want to modify (ie "app\individual\alarmclock\src\main\res"</li>
-<li>Place the resources you wish to modify in the same style as the original app (e.g in "res/values/colors.xml" place the entries to modify and their new color codes). Check RRO guides on decompiling apps and applying these new values</li>
-<li>I recommend to always restart your device to ensure themes are applied correctly but there’s a quicker way. Turn night mode on & off and force stop Home.</li> 
-<li>Always uninstall the theme before updating it to a new one. Otherwise it will not update correctly and will not apply the new values/resources </li>
  </ol>
 </ul>
 
@@ -54,10 +50,14 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <li>In the include section, add the line “app:individual:name” (where name is the name of the folder in Step 1. Press “Sync” in the popup and wait.</li>
 <li>Now, there should be a “build.gradle” file in the list of the other ones with the corresponding name in brackets next to it.</li>
 <li>Open this file and edit the value of “applicationId” to suit the new app.</li>
-<li>Now find the AndroidManifest.xml for this app (either in Android Studio or name/src/main). Edit the “package” name to match the name used previously and change the “targetPackage” name to match the name of the app being targeted.</li>
+<li>Now find the AndroidManifest.xml for this app (either in Android Studio or *name*/src/main). Edit the “package” name to match the name used previously and change the “targetPackage” name to match the name of the app being targeted.</li>
+<li>Open the "theme_info.json" file and add another entry under "appOverlays" for your new overlay. When using this template correctly, both the "pkg" and "apk" lines will match the package name for the overlay (which you should've set in the previous step)</li>
+</ol>
+
+<h4>Adding resources to overlays</h4>
 <li>Create a folder called "res" in the same directory as the AndroidManifest.xml </li>
-<li>See above on adding resources</li>
-<li> Add the package name to the "Theme_info.json" file (using same format as the other entries).
+<li>Add the new resources in the same format as the ones you wish to replace. RRO Guides will have more detail but essentially make sure they match in name, location and preferably resolution. DO NOT LINK VALUES!! (see warning) </li>
+<li>You do not create a public.xml and if you have one, you're probably stealing off someone else</li>
 </ol>
 
 <h4>Changing project name</h4>
