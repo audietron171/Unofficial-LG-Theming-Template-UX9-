@@ -46,6 +46,13 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
  </ol>
 </ul>
 
+<h4>Adding resources to overlays</h4>
+<ol>
+<li>Create a folder called "res" in the same directory as the AndroidManifest.xml </li>
+<li>Add the new resources in the same format as the ones you wish to replace. RRO Guides will have more detail but essentially make sure they match in name, location and preferably resolution. DO NOT LINK VALUES!! (see warning) </li>
+<li>You do not create a public.xml and if you have one, you're probably stealing off someone else</li>
+</ol>
+
 <h4>Adding overlay apps</h4>
 <ol>
 <li>Copy one of the folders from the "app/individual" directory and place it in the same directory. Rename it to something you’ll remember (e.g. “youtube”).</li>
@@ -55,13 +62,6 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <li>Open this file and edit the value of “applicationId” to suit the new app.</li>
 <li>Now find the AndroidManifest.xml for this app (either in Android Studio or *name*/src/main). Edit the “package” name to match the name used previously and change the “targetPackage” name to match the name of the app being targeted.</li>
 <li>Open the "theme_info.json" file and add another entry under "appOverlays" for your new overlay. When using this template correctly, both the "pkg" and "apk" lines will match the package name for the overlay (which you should've set in the previous step)</li>
-</ol>
-
-<h4>Adding resources to overlays</h4>
-<ol>
-<li>Create a folder called "res" in the same directory as the AndroidManifest.xml </li>
-<li>Add the new resources in the same format as the ones you wish to replace. RRO Guides will have more detail but essentially make sure they match in name, location and preferably resolution. DO NOT LINK VALUES!! (see warning) </li>
-<li>You do not create a public.xml and if you have one, you're probably stealing off someone else</li>
 </ol>
 
 <h4>Changing project name</h4>
