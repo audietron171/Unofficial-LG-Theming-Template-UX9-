@@ -48,7 +48,7 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 
 <h4>Adding resources to overlays</h4>
 <ol>
-<li>Create a folder called "res" in the same directory as the AndroidManifest.xml </li>
+<li>Create a folder called "res" in the same directory as the AndroidManifest.xml of the overlay you want to modify </li>
 <li>Add the new resources in the same format as the ones you wish to replace. RRO Guides will have more detail but essentially make sure they match in name, location and preferably resolution. DO NOT LINK VALUES!! (see warning) </li>
 <li>You do not create a public.xml and if you have one, you're probably stealing off someone else</li>
 </ol>
