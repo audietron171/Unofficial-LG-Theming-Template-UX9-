@@ -33,7 +33,7 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 </ol>
   </li>
 <li>
-<h5>Actually making a Theme</h5>
+<h5>Compiling overlays apps</h5>
 <ol>
 <li>Locate the “Make Project” button on the top-middle of the screen (just under the project name), confirm that “app” is selected and press the green hammer icon.</li>
 <li>This will generate those apps that the theme will apply. If you look back under the “overlays” folder, you will see this populated.</li>
