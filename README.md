@@ -1,10 +1,9 @@
 # Unofficial LG Theming Template For UX9
 
 <h4>Introduction</h4>
-This is a fairly basic template for making themes for LG phones running UX9. This may work on other versions but I cannot ensure it will work. I highly condone any form of piracy and you should be very careful of only using opensource or your own pictures/icons/properties. You should be especially wary of stealing from other creators!! I recommend having a read of these (as well as RRO guides) since it explains a little more on how the theming system works (although there appears to be a few extras in LG’s implementation, particularly around night mode resources). Just keep in mind that there are small differences so be careful in modifying the template (outside of what I've mentioned below):
+This is a fairly basic template for making themes for LG phones running UX9. This may work on other versions but I cannot ensure it will work. I highly condone any form of piracy and you should be very careful of only using opensource or your own pictures/icons/properties. You should be especially wary of stealing from other creators!! I recommend having a read of this (as well as RRO guides) since it explains a little more on how the theming system works (although there appears to be a few extras in LG’s implementation, particularly around night mode resources). Just keep in mind that there are small differences so be careful in modifying the template (outside of what I've mentioned below):
 <ul>
   <li>https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO</li>
-  <li>https://source.android.com/devices/architecture/rros</li>
 </ul>
 
 This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder_Thingy_Template":
