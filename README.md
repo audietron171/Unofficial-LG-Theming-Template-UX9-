@@ -1,7 +1,9 @@
 # Unofficial LG Theming Template For UX9
 
 <h4>Introduction</h4>
-This is a fairly basic template for making themes for LG phones running UX9. This may work on other versions but I cannot ensure it will work. I highly condone any form of piracy and you should be very careful of only using opensource or your own pictures/icons/properties. You should be especially wary of stealing from other creators!! I recommend having a read of this (as well as overlay theming guides including on Substratum) since it explains a little more on how the theming system works (although there appears to be a few extras in LG’s implementation, particularly around night mode resources). Just keep in mind that there are differences in how they are implemented so be careful in modifying the template (outside of what I've mentioned below):
+This is a fairly basic template for making themes for LG phones running UX9. This may work on other versions but I cannot ensure it will work. I highly condone any form of piracy and you should be very careful of only using opensource or your own pictures/icons/properties. You should be especially wary of stealing from other creators!!
+<br>
+I recommend having a read of this (as well as overlay theming guides including on Substratum) since it explains a little more on how the theming system works (although there appears to be a few extras in LG’s implementation, particularly around night mode resources). Just keep in mind that there are differences in how they are implemented so be careful in modifying the template (outside of what I've mentioned below):
 <ul>
   <li>https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO</li>
 </ul>
@@ -11,7 +13,8 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
 <h4>WARNING</h4>
-Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). Backup your device before theming!!
+Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). 
+<h4>BACKUP YOUR DEVICE FIRST!!</h4>
 
 
 <h4>Setting Up</h4>
