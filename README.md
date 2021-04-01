@@ -13,13 +13,14 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <ul>
   <li>https://github.com/markbencze/Samsung_Theme_Builder_Thingy_Template</li>
 </ul>
-<h4>WARNING</h4>
-Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). 
-<h4>BACKUP YOUR DEVICE FIRST!!</h4>
 
 <h4>Template structure</h4>
 <ul> As described above in the RRO wiki,  the theming system uses apk's called "overlays" to replace resources in their target packages/apps. In this project, the sources for each overlay is located in the "app>individual" folder. If a resource (e.g picture, drawable, colour value etc) is in an indentical location and has the same name as in the target app, it will be replaced. Once compiled, the overlay apk's are placed in "app>src>main>assets>overlays". </ul>
 </h4>
+
+<h4>WARNING</h4>
+Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). 
+<h4>BACKUP YOUR DEVICE FIRST!!</h4>
 
 <h4>Setting Up</h4>
 <ul>
