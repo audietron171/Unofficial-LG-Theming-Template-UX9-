@@ -19,8 +19,8 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 </h4>
 
 <h4>WARNING</h4>
-Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). 
-<h4>BACKUP YOUR DEVICE FIRST!!</h4>
+<ul> Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). </ul>
+<h4>BACKUP YOUR DEVICE FIRST!!</h4> 
 
 <h4>Setting Up</h4>
 <ul>
@@ -87,9 +87,10 @@ Do not link resources (e.g "@color/exampleColor"). It will give an error when bu
 </ol>
 
 <h4>Changing theme preview pictures</h4>
+<ol>
 <li> Pictures are located in the "app>src>main>res" folder and in the drawable folders. Edit or add as needed. </li>
 <li> If you add or remove any pictures, ensure the changes are reflected in the "theme_info.json" file under the "previews" section </li>
-</h4>
+</ol>
 
 <h4>Converting theme into an icon pack</h4>
 <ol>
