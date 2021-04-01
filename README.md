@@ -17,6 +17,9 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 Do not link resources (e.g "@color/exampleColor"). It will give an error when building but even if you add to the correct location, there is a potential to softlock your device (especially when doing to SystemUI overlays). 
 <h4>BACKUP YOUR DEVICE FIRST!!</h4>
 
+<h4>Template structure</h4>
+<ul> As described above in the RRO wiki,  the theming system uses apk's called "overlays" to replace resources in their target packages/apps. In this project, the sources for each overlay is located in the "app>individual" folder. If a resource (e.g picture, drawable, colour value etc) is in an indentical location and has the same name as in the target app, it will be replaced. Once compiled, the overlay apk's are placed in "app>src>main>assets>overlays". </ul>
+</h4>
 
 <h4>Setting Up</h4>
 <ul>
@@ -68,6 +71,12 @@ Do not link resources (e.g "@color/exampleColor"). It will give an error when bu
 <li>Open the "theme_info.json" file and add another entry under "appOverlays" for your new overlay. When using this template correctly, both the "pkg" and "apk" lines will match the package name for the overlay (which you should've set in the previous step)</li>
 </ol>
 
+<h4>“Classes.dex collided” Warning</h4>
+<ol>
+<li>Delete all compiled “Overlay” APK’s (temporarily move if you want to keep any)</li>
+<li>Delete “app-release” in release folder (or just compile again as it will clear the error)</li>
+</ol>
+
 <h4>Changing project name</h4>
 <ol>
 <li>Go “File”>”Project Structure” and under the “Modules” sub-menu, re-name all of the “Application ID” values to match the new name.</li>
@@ -76,6 +85,11 @@ Do not link resources (e.g "@color/exampleColor"). It will give an error when bu
 <li>You can also re-name the Android Studio project but this can change depending on the version so best to check online.</li>
 </ol>
 
+<h4>Changing theme preview pictures</h4>
+<li> Pictures are located in the "app>src>main>res" folder and in the drawable folders. Edit or add as needed. </li>
+<li> If you add or remove any pictures, ensure the changes are reflected in the "theme_info.json" file under the "previews" section </li>
+</h4>
+
 <h4>Converting theme into an icon pack</h4>
 <ol>
 <li>Using the same project, open the AndroidManifest.xml for the root project ("app/source/main/AndroidManifest.xml")</li>
@@ -83,11 +97,6 @@ Do not link resources (e.g "@color/exampleColor"). It will give an error when bu
 <li>After installing the theme, it can now be applied under the "icons" tab</li>
 </ol>
 
-<h4>“Classes.dex collided” Warning</h4>
-<ol>
-<li>Delete all compiled “Overlay” APK’s (temporarily move if you want to keep any)</li>
-<li>Delete “app-release” in release folder (or just compile again as it will clear the error)</li>
-</ol>
 
 
 
