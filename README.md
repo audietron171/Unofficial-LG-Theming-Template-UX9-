@@ -25,7 +25,8 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
     <ul>
     <li> Thanks again to Mark Bencze for this tip. As mentioned in the "Warning" section, it is possible to softlock your device when messing with SystemUI overlays. When this happens, you won't be able to uninstall your theme and safe boot will not fix it. You will need to factory reset. However, if you install/uninstall with ADB, you can uninstall the theme even when SystemUI is crashing. See here for more info: 
         https://www.dev2qa.com/android-adb-install-uninstall-app-examples/ </li> 
-  <li> You can still transfer to you phone and uninstall but keep in mind that there is a risk of having to format your phone to recover it</ul> </ul>
+      <li> I highly recommend trying this at some point since ADB can be temperamental </li>
+  <li> You can still transfer to you phone and install (like any regular apk) but keep in mind that there is a risk of having to format your phone to recover it.</ul> </ul>
 <h4>BACKUP YOUR DEVICE FIRST!!</h4> 
 
 <h4>Setting Up</h4>
