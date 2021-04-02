@@ -49,7 +49,10 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <li>Locate the green hammer icon ("Make Project" icon on the toolbar, near the centre of the screen). Ensure the box next to it is selecting "app" (which will generate all overlays but adjust as neccessary). Click the hammer icon and wait for the Gradle Build to finsih</li>
 <li>If you look back under the “overlays” folder, you will see this populated.</li>
 <li>Now repeat the "Compiling for the first time" steps (you can save the passwords to make this simpler) and wait for it to finish.</li>
-<li>You can now transfer this to your phone (via OneDrive, Google Drive etc) and install (keeping in mind to use an app other than Downloads or Google Files). Ignore any Play Protect warnings and up to you on submitting it to Play Protect.</li>
+<li>You can now transfer this to your phone and install (keeping in mind to use an app other than Downloads or Google Files). Ignore any Play Protect warnings and up to you on submitting it to Play Protect.</li>
+  <ul> <h6> Consider using ADB for installing/uninstalling themes </h6>
+      <li>Thanks again to Mark Bencze for this tip. As mentioned in the "Warning" section, it is possible to softlock your device when messing with SystemUI overlays. When this happens, you won't be able to uninstall your theme and safe boot will not fix it. You will need to factory reset. However, if you install/uninstall with ADB, you can uninstall the theme even when SystemUI is crashing. See here for more info: 
+        https://www.dev2qa.com/android-adb-install-uninstall-app-examples/ </li> </ul> 
 <li>You can now apply the theme. By default, it has no values to apply so nothing will happen. See below for how to add values/drawables </li>
  </ol>
 </ul>
