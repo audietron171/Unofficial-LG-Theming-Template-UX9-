@@ -106,7 +106,7 @@ This project also borrows a few tricks from Mark Bencze's "Samsung_Theme_Builder
 <li>After installing the theme, it can now be applied under the "icons" tab</li>
 </ol>
 
-<h4>Finding Resource</h4>
+<h4>Finding Resources</h4>
 This is one of the most challenging aspects of theming. However, there are ways to approach it to improve your workflow. 
 <ul>
   <li>Decompile a number of system apps to help limit the resources needed to go through. For most themes, you should only need to decompile "lge-res", "LGSystemUI", "LGHome" and "LGKeyboard". Make sure you extract them from your device as different versions may work differently. </li>
